@@ -1,0 +1,19 @@
+CREATE DATABASE example;
+
+USE example;
+
+CREATE TABLE IF NOT EXISTS customer (
+	id INT NOT NULL,
+    fname VARCHAR(50) NOT NULL,
+    lname VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS flight (
+	id INT NOT NULL,
+    fl_from VARCHAR(200) NOT NULL,
+    fl_to VARCHAR(200) NOT NULL
+);
+
+SHOW TABLES;
+
+
